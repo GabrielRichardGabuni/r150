@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <title>SUZUKI RAIDER R 150</title>
+</head>
+<body>
+    <div class="container" id="motor">
+        <nav>
+            <img src="ss.png" class="logo">
+            <a href="/ep1/index.html" class="btn">BUY NOW!</a>
+        </nav>
+        <div class="content">
+            <h2>THE UNDERBONE KING</h2>
+            <h1>Raider R 150</h1>
+            <p>Dubbed as the Underbone King, the Suzuki Raider R150 is always the 
+                choice of all riders who want power and performance but still want 
+                to add more to their bikes through customization of modification. 
+                Powered by Suzuki’s reliable 150cc carburetor engine with double 
+                overhead camshaft (or Twincam), 4-valve, 6-speed transmission, 
+                the Raider R150 has already captured the hearts of the Filipinos. 
+                The R150’s slim body holds very well its highly powerful engine 
+                giving a very light yet authoritative ride. A packed ride with very 
+                distinct appearance, it is a sure headturner on the road.</p>
+                 <h3>Choose your color!</h3>
+                 <div class="color-select">
+                    <div id="red"></div>
+                    <div id="green"></div>
+                    <div id="black"></div>
+                 </div>
+        </div>
+
+    </div>
+<script>
+    let redBtn = document.getElementById("red");
+    let greenBtn = document.getElementById("green");
+    let blackBtn = document.getElementById("black");
+    let motor = document.getElementById("motor");
+
+    redBtn.onclick = function(){
+        motor.style.backgroundImage = "url(redrr.png)"
+    }
+    greenBtn.onclick = function(){
+        motor.style.backgroundImage = "url(green.png)"
+    }
+    blackBtn.onclick = function(){
+        motor.style.backgroundImage = "url(blackrr.png)"
+    }
+</script>
+<footer>
+    Gabuni,Gabriel Richard R.
+</footer>
+
+</body>
+</html>
